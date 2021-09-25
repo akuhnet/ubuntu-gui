@@ -1,8 +1,8 @@
 echo -ne '>>>                       [20%]\r'
-apt update
+apt update > /dev/null 2>&1
 sleep 2
 echo -ne '>>>>>>>                   [40%]\r'
-apt upgrade -y
+apt upgrade -y > /dev/null 2>&1
 sleep 2
 echo -ne '>>>>>>>>>>>>>>            [60%]\r'
 apt install ubuntu-desktop -y
