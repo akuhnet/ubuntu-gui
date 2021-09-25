@@ -1,20 +1,24 @@
 echo "===================================="
 echo "Update"
 echo "===================================="
-apt update -y > /dev/null 2>&1
-apt upgrade -y > /dev/null 2>&1
+apt update
+apt upgrade -y
+clear
 echo "===================================="
 echo "Install Gui"
 echo "===================================="
-apt install ubuntu-desktop -y > /dev/null 2>&1
+apt install ubuntu-desktop -y
+clear
 echo "===================================="
 echo "Download Nomachine"
 echo "===================================="
-wget -O nomachine.deb https://bit.ly/nomachinev7 > /dev/null 2>&1
+wget -O nomachine.deb https://bit.ly/nomachinev7
+clear
 echo "===================================="
 echo "Install Nomachine"
 echo "===================================="
-sudo apt install ./nomachine.deb > /dev/null 2>&1
+sudo apt install ./nomachine.deb
+clear
 echo "===================================="
 echo "Finish"
 echo "===================================="
