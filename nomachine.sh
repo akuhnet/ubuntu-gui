@@ -1,4 +1,19 @@
-apt update && apt upgrade -y
-apt install ubuntu-desktop -y
-wget -O nomachine.deb https://bit.ly/nomachinev7
-sudo apt install ./nomachine.deb
+echo "===================================="
+echo "Update"
+echo "===================================="
+apt update && apt upgrade -y > /dev/null 2>&1
+echo "===================================="
+echo "Install Gui"
+echo "===================================="
+apt install ubuntu-desktop -y > /dev/null 2>&1
+echo "===================================="
+echo "Download Nomachine"
+echo "===================================="
+wget -O nomachine.deb https://bit.ly/nomachinev7 > /dev/null 2>&1
+echo "===================================="
+echo "Install Nomachine"
+echo "===================================="
+sudo apt install ./nomachine.deb > /dev/null 2>&1
+echo "===================================="
+echo "Finish"
+echo "===================================="
