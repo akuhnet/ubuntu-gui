@@ -7,7 +7,6 @@ echo "Install Gui"
 echo "===================================="
 apt install ubuntu-desktop -y > /dev/null 2>&1
 echo "===================================="
-echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
