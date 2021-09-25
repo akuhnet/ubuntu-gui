@@ -1,7 +1,8 @@
 echo "===================================="
 echo "Update"
 echo "===================================="
-apt update && apt upgrade -y > /dev/null 2>&1
+apt update -y > /dev/null 2>&1
+apt upgrade -y > /dev/null 2>&1
 echo "===================================="
 echo "Install Gui"
 echo "===================================="
