@@ -5,6 +5,6 @@
 
 ```yaml
 wget -O ubuntugui.sh https://bit.ly/3zAXntb
-chmod x+ ubuntugui.sh
+chmod +x ubuntugui.sh
 ./ubuntugui.sh
 ```
