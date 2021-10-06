@@ -23,5 +23,4 @@ echo "===================================="
 echo "Finish"
 echo "Connect with nomachine"
 echo "VPS_IP:4000 "
-
 echo "===================================="
