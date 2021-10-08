@@ -2,6 +2,7 @@ apt-get update && apt-get install wget -y && DEBIAN_FRONTEND="noninteractive" TZ
 clear
 DEBIAN_FRONTEND=noninteractive apt-get install keyboard-configuration -y
 apt-get install ubuntu-desktop -y
+apt-get install sudo -y
 clear
 wget -O nomachine.deb https://bit.ly/nomachinev7
 apt-get install ./nomachine.deb
