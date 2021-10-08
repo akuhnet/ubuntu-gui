@@ -4,7 +4,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install keyboard-configuration -y
 apt-get install ubuntu-desktop -y
 clear
 wget -O nomachine.deb https://bit.ly/nomachinev7
-sudo apt install ./nomachine.deb
+apt-get install ./nomachine.deb
 clear
 wget -O ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok.zip
